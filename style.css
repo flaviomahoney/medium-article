@@ -1,0 +1,36 @@
+body, html {
+    height: 100%;
+    background-color: #f0daa4;
+}
+.container {
+    margin: auto auto;
+}
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://source.unsplash.com/random");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.banner_content {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.content {
+    text-align: center;
+    font-family: Tahoma;
+    width: 700px;
+    margin: auto auto;
+    padding: 10px 10px;
+}
+
+
+
+
